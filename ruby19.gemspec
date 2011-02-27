@@ -6,13 +6,13 @@ Gem::Specification.new do |s|
   s.name        = "ruby19"
   s.version     = Ruby19::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["TODO: Write your name"]
-  s.email       = ["TODO: Write your email address"]
-  s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.authors     = ["Elia Schito"]
+  s.email       = ["perlelia@gmail.com"]
+  s.homepage    = "elia.github.com"
+  s.summary     = %q{A collection of backports from Ruby 1.9 to Ruby 1.8}
+  s.description = %q{Require in your ruby 1.8 code to get apis from its greater brother.}
 
-  s.rubyforge_project = "ruby19"
+  # s.rubyforge_project = "ruby19"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
